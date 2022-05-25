@@ -9,8 +9,6 @@ echo "What MC Version would you like to install?"
 read version
 echo "How much RAM to use on server? Specify in MB(1GB=1024MB, do your maths) Put M at the end of the number"
 read ram
-echo "what openjdk version would you want? openjdk 17 is for 1.18+ versions, openjdk 8 is for 1.8 - 1.17.x"
-read openjdk
 #checking if user done any input
 if [ $version ]; then
 	echo "Installing version: $version"
