@@ -7,3 +7,7 @@ Hello, this is projectmcbash. This project is open source, so you can make your 
 Its simple. Provide version and ram usage to the script! Then script will use BuildTools.jar from jenkins.
 script needs execute permission, command: sudo chmod +x mc.sh
 FOR MORE INFORMATION ON HOW TO SET THIS UP GO TO: https://www.pavlestefanovic.com/projects/projectmcbash.php
+-----------------------------
+UPDATE LOGS
+-----------------------------
+5/25/22: added so script creates another script for easair startup of the server(start.sh)
