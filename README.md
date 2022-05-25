@@ -10,4 +10,4 @@ FOR MORE INFORMATION ON HOW TO SET THIS UP GO TO: https://www.pavlestefanovic.co
 -----------------------------
 UPDATE LOGS
 -----------------------------
-5/25/22: added so script creates another script for easair startup of the server(start.sh)
+5/25/22: added so script creates another script for easier startup of the server(start.sh)
