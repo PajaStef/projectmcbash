@@ -7,7 +7,7 @@ echo "--------------------------------------------------------------------------
 #gathering data about the server
 echo "What MC Version would you like to install?"
 read version
-echo "How much RAM to use on server? Specify in MB(1GB=1024MB, do your maths) Put M at the end of the number"
+echo "How much RAM to use on server? Specify in MB(1GB=1024MB, do your maths)"
 read ram
 #checking if user done any input
 if [ $version ]; then
