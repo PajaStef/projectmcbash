@@ -25,8 +25,6 @@ if [ $version ]; then
 	#Starting server
 	echo $(echo java -Xms$ram"M" -Xmx$ram"M" -jar spigot-$version.jar nogui > start.sh)
 	echo $(chmod +x start.sh)
-	echo $(java -Xms$ram -Xmx$ram -jar spigot-$version.jar)
-	echo $(echo java -Xms$ramM -Xmx$ramM -jar spigot-$version.jar nogui > start.sh)
 	echo "-----------------------------------------------------------------------------------------------------------------------------------"
 	echo "This should be it! Have fun! To start your server run command: ./start.sh"
 else
