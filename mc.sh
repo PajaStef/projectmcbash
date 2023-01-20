@@ -28,13 +28,13 @@ fi
 
 echo "Installing version: $version"
 
-# Getting BuildTools.jar
-echo "Downloading BuildTools.jar..."
-wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar || { echo >&2 "Error downloading BuildTools.jar. Exiting script."; exit 1; }
-
 echo "------------------------------------"
 echo "Let this script do its thing now..."
 echo "-----------------------------------"
+
+# Getting BuildTools.jar
+echo "Downloading BuildTools.jar..."
+wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar || { echo >&2 "Error downloading BuildTools.jar. Exiting script."; exit 1; }
 
 # Running BuildTools.jar
 echo "Building server..."
