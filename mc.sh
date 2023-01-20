@@ -40,13 +40,13 @@ echo "-----------------------------------"
 echo "Building server..."
 java -jar BuildTools.jar --rev $version || { echo >&2 "Error building server. Exiting script."; exit 1; }
 
-echo "when server is started, to stop it press the combination: ctrl+c"
-echo "when server is stopped, to start it again do: ./start.sh"
-
 # Starting server
 echo "Creating start script..."
 echo "java -Xms$ram"M" -Xmx$ram"M" -jar spigot-$version.jar nogui" > start.sh
 chmod +x start.sh
+
+echo "when server is started, to stop it press the combination: ctrl+c"
+echo "when server is stopped, to start it again do: ./start.sh"
 
 echo "-----------------------------------------------------------------------------------------------------------------------------------"
 echo "This should be it! Have fun! To start your server run command: ./start.sh"
