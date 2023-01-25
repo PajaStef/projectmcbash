@@ -7,11 +7,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 # Check if user has java and openjdk installed
-java -version >/dev/null 2>&1 || { echo >&2 "Java is required to run this script. Please install Java and try again."; exit 1; }
-
-echo "----------------------------------------------------------------------------------------------------------------"
-echo "openjdk 17,18(command to install it: sudo apt-get install openjdk-17-jre-headless) are REQUIRED for 1.18 > to work!!!!!!"
-echo "------------------------------------------------------------------------------------------------------------------------------------------"
+java -version >/dev/null 2>&1 || { echo >&2 "OpenJDK is required to run this script. Please try to install OpenJDK with sudo apt install openjdk-17-jre-headless and try again."; exit 1; }
 
 # Gathering data about the server
 echo "What MC Version would you like to install? (e.g. 1.19.2)"
