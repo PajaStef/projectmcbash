@@ -16,12 +16,6 @@ read version
 echo "How much RAM to use on server? Specify in MB(1GB=1024MB, do your maths)"
 read ram
 
-# Validate user input for RAM
-if [[ ! $ram =~ ^[0-9]+$ ]]; then
-    echo "Invalid input for RAM. Please enter a valid number."
-    exit 1
-fi
-
 echo "Installing version: $version"
 
 echo "------------------------------------"
