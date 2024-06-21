@@ -3,9 +3,10 @@
 projectmcbash
 -------------------------------
 Easy way to setup a MC Server!
-Hello, this is projectmcbash.This should make setting up your Minecraft server from typing out a lot of commands to a simple one/two commands! 
-Its simple. Provide version and ram usage to the script! Then script will use BuildTools.jar from jenkins.
-script needs execute permission, command: sudo chmod +x mc.sh
+
+Hello, this is projectmcbash. This script eases the task of creating a MC Server. 
+Its simple. Provide version and ram usage to the script, then script will use BuildTools.jar from jenkins to build the spigot server.
+Script needs execute permission, if they are not already granted use this command: command: sudo chmod +x mc.sh
 -----------------------------
 UPDATE LOGS
 -----------------------------
