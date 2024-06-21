@@ -35,6 +35,14 @@ echo "Creating start script..."
 echo "java -Xms$ram"M" -Xmx$ram"M" -jar spigot-$version.jar nogui" > start.sh
 chmod +x start.sh
 
+#Cracking the server
+echo "Do you want the server to be cracked?(y/n)"
+read cracked
+if [ $cracked == y ]; then
+   mv server.properties.1 server.properties
+fi
+
+
 echo "when server is started, to stop it press the combination: ctrl+c"
 echo "when server is stopped, to start it again do: ./start.sh"
 
