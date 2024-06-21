@@ -10,4 +10,7 @@ script needs execute permission, command: sudo chmod +x mc.sh
 UPDATE LOGS
 -----------------------------
 5/25/22: added so script creates another script for easier startup of the server(start.sh)
+
 20/1/23: complete update to all messages, added error handling
+
+21/06/24 added a feature to the script that allows you to automatically enable support for cracked accounts on the server.
